@@ -94,7 +94,7 @@ public class EmployeeWage
 		}	
 >>>>>>> UC4-Switch-case
 =======
-	// TODO Auto-generated method stub
+	
 	
 =======
      //variables
