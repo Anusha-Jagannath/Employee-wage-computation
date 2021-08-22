@@ -3,7 +3,7 @@ public class EmployeeWage
 {
 	public static void main(String[] args)
 	{
-			// TODO Auto-generated method stub
+		 // TODO Auto-generated method stub
 		 //variables
 		int wagePerHour=20;
 		int wage=0;
@@ -15,7 +15,7 @@ public class EmployeeWage
 		switch(empType)
 		{
 		case 2:empHrs=16;
-			   wage=empHrs*wagePerHour*noOfdays;
+		       wage=empHrs*wagePerHour*noOfdays;
 		       System.out.println("Full time employee");
 		       System.out.println("Employee wage is "+wage);
 		       break;
@@ -26,8 +26,8 @@ public class EmployeeWage
 			   System.out.println("Employee wage is "+wage);  
 			   break;
 		 default:wage=0;
-				System.out.println("Neither full time nor part time");
-				System.out.print("Wage is "+wage);
+			 System.out.println("Neither full time nor part time");
+			 System.out.print("Wage is "+wage);
 	
 			
 			
