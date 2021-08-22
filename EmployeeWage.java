@@ -2,7 +2,7 @@ public class EmployeeWage
 {
 	public static void main(String[] args)
 	{
-		 //variables
+		//variables
 		int wagePerHour=20;
 		int wage=0;
 		int empHrs=0;
