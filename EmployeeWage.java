@@ -6,6 +6,7 @@ public class EmployeeWage
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		System.out.println("Welcome to Employee Wage Computation");
 	
 		//constants
@@ -97,16 +98,31 @@ public class EmployeeWage
 =======
 			// TODO Auto-generated method stub
 		 //variables
+=======
+     //variables
+>>>>>>> UC6-Wage-Condition
 		int wagePerHour=20;
 		int wage=0;
 		int empHrs=0;
 		int noOfdays=20;
+<<<<<<< HEAD
 		
 		//computation using switch case
+=======
+		int fullWage=0;
+		int partWage=0;
+		int totalWage=0;
+		
+		//iterating through 20 days using for loop
+		for(int i=0;i<noOfdays;i++)
+		{
+		//computation of employee type using switch case
+>>>>>>> UC6-Wage-Condition
 		int empType=(int)Math.floor(Math.random()*10)%3;
 		switch(empType)
 		{
 		case 2:empHrs=16;
+<<<<<<< HEAD
 			   wage=empHrs*wagePerHour*noOfdays;
 		       System.out.println("Full time employee");
 		       System.out.println("Employee wage is "+wage);
@@ -120,10 +136,32 @@ public class EmployeeWage
 		 default:wage=0;
 				System.out.println("Neither full time nor part time");
 				System.out.print("Wage is "+wage);
+=======
+			   fullWage+=empHrs*wagePerHour*noOfdays;
+		       System.out.println("Full time employee");
+		       break;
+		               
+		case 1:empHrs=8;
+			   partWage+=empHrs*wagePerHour*noOfdays;
+			   System.out.println("Part time employee"); 
+			   break;
+		 default:wage=0;
+				System.out.println("Neither full time nor part time");
+				System.out.println("Wage is "+wage);
+>>>>>>> UC6-Wage-Condition
 	
 			
 			
 		}	
+<<<<<<< HEAD
 >>>>>>> UC5-Wage-Month
+=======
+
+	}
+		totalWage=fullWage+partWage;
+		System.out.println("Full time wage is "+fullWage);
+		System.out.println("Part time wage is "+partWage);
+		System.out.println("Total wage is "+totalWage);
+>>>>>>> UC6-Wage-Condition
 	}
 }
