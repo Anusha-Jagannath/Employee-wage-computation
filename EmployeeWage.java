@@ -19,17 +19,16 @@ public class EmployeeWage
 		switch(empType)
 		{
 		case 2:empHrs=16;
-			   fullWage+=empHrs*wagePerHour*noOfdays;
+		       fullWage+=empHrs*wagePerHour*noOfdays;
 		       System.out.println("Full time employee");
 		       break;
-		               
 		case 1:empHrs=8;
-			   partWage+=empHrs*wagePerHour*noOfdays;
-			   System.out.println("Part time employee"); 
-			   break;
+		       partWage+=empHrs*wagePerHour*noOfdays;
+		       System.out.println("Part time employee"); 
+		       break;
 		 default:wage=0;
-				System.out.println("Neither full time nor part time");
-				System.out.println("Wage is "+wage);
+			System.out.println("Neither full time nor part time");
+			System.out.println("Wage is "+wage);
 	
 			
 			
