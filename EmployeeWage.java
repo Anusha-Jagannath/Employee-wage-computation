@@ -3,7 +3,7 @@ public class EmployeeWage
 {
 	public static void main(String[] args)
 	{
-		 // TODO Auto-generated method stub
+		 
 		 //variables
 		int wagePerHour=20;
 		int wage=0;
