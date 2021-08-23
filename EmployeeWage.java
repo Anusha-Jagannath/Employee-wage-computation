@@ -12,8 +12,9 @@ public class EmployeeWage
 		int totalWage=0;
 		
 		//iterating through 20 days using for loop
-		for(int i=0;i<noOfdays;i++)
+		while(totalEmpHrs<=100 && totalWorkingDays<=20)
 		{
+			totalWorkingDays++;
 		//computation of employee type using switch case
 		int empType=(int)Math.floor(Math.random()*10)%3;
 		switch(empType)
@@ -32,7 +33,8 @@ public class EmployeeWage
 	
 			
 			
-		}	
+		}
+			totalEmpHrs+=empHrs;
 
 	}
 		totalWage=fullWage+partWage;
